@@ -1,12 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CrystalsCollector Game</title>
+
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="assets/javascript/game.js"></script>
 </head>
-<body>
+
+<body class="background">
+    <div id="title">
+        <h1>CrystalsCollector!</h1>
+    </div>
     
+
+    <div id="instructions">
+        <p>You will be given a random number at the start of the game</p>
+        <br>
+        <p>There are four crystals below. By clicking on a crystal you will add a spefific amount of points to your total score.</p>
+        <br>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score gores about the random number.</p>
+        <br>
+        <p>Each time when the game starts, the game will change the values of each crystal</p>
+        <br>
+
+    </div>
+    <p>You will be given a random number at the start of the game</p>
+
+    <div id="userNumber">
+        <div id="startingNumber">
+            <p>Your Number is:</p>
+        </div>
+
+    </div>
+    
+
+
+    <div id="userScore">
+        <p>Your total score is:</p>
+        <br>
+        
+
+
+    </div>
+   
+    <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+    
+    <!-- Note that this div is now empty. We will fill it dynamically -->
+    <div id="crystals">
+    
+        </div>
+
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,55 @@
+  .background {
+        background-color: aqua;
+        background-image: url("pattern.png");
+        background-repeat: repeat-y repeat-x;
+    }
+
+  #title {
+      padding: 20px 20px;
+      background: #cb6f34;
+      color: #ffffff;
+      font-size: 2em;
+      width: 250px;
+      margin: 15px;
+      text-align: center;
+  }
+
+  #instructions {
+      padding: 20px 20px;
+      background: #fbe6cf;
+      color: green;
+      font-size: 1em;
+      width: 400px;
+      margin: 15px;
+      text-align: left;
+      height: 300px;
+      font-weight: 550;
+  }
+  
+   #userNumber {
+      padding: 20px 20px;
+      margin: 15px;
+      background: #5bc987;
+      color: #601f64;
+      width: 150px;
+      height: 200 px;
+      font-weight: strong;
+
+
+  }
+
+
+  #userScore {
+      padding: 20px 20px;
+      margin: 15px;
+      background: #46a397;
+      color: #ffffff;
+      width: 150px;
+      min-height: 100 px;
+
+
+  }
+  .crystal-image {
+      width: 300px;
+      height: 300px;
+    }
