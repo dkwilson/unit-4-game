@@ -11,7 +11,7 @@
 
     <link href="assets/css/reset.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-    <script src="assets/javascript/game.js"></script>
+    
 </head>
 
 <body class="background">
@@ -33,16 +33,17 @@
     </div>
     <p>You will be given a random number at the start of the game</p>
 
-    <div id="userNumber">
-        <div id="startingNumber">
-            <p>Your Number is:</p>
+    <!--Targets-->
+    <div id="target-score">
+        <div>
+            <p>Target Score</p>
         </div>
 
     </div>
     
 
-
-    <div id="userScore">
+<!--User Score-->
+    <div id="your-score">
         <p>Your total score is:</p>
         <br>
         
@@ -53,14 +54,37 @@
     <h1>Number to Guess: <span id="number-to-guess"></span></h1>
     
     <!-- Note that this div is now empty. We will fill it dynamically -->
-    <div id="crystals">
-    
+    <div>
+        <h3>Crystal Selection</h3>
         </div>
+
+    <div>
+        <img src="./assets/images/blue.png" id="blue" width="200" height="200">
+        <img src="./assets/images/green.png" id="green" width="200" height="200">
+        <img src="./assets/images/red.png" id="red" width="200" height="200">
+        <img src="./assets/images/yellow.png" id="yellow" width="200" height="200">
+    </div>
+
+    <!--Wins-->
+    <h3>Win Count</h3>
+    <div> 
+        <p>
+            <h3 id="win-count">0</h3>
+        </p>
+    </div>
+    
+    <h3>Loss Count</h3>
+    <div>
+        
+    </div>
+    <h3 id="loss-count">0</h3>
 
 
 
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="assets/javascript/game.js"></script>
 </body>
 
 </html>
